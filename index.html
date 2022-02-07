@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border:1px solid #F8B739;
+	border-radius: 15px 15px;
+    background-color: #BD245F;
+}
+
+.button {
+  background-color: #21325E; /* Blue */
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius : 18px
+}
+
+
+</style>
+</head>
+<body onload="startGame()">
+<script src="blocks_bdaygame.js">
+</script>
+<p>
+<div class = "container" style="width: 320px;">  
+<button class="button" style="position: relative; left:10%;" onclick = "button_moveleft()">&#x2190;</button>
+<button class="button" style="position: relative; left:15%;" onclick = "button_moveup()">&#x2191;</button>
+<button class="button" style="position: relative; left:20%;" onclick = "button_moveright()">&#x2192;</button>
+<button class="button" style="position: relative; left:25%;" onclick = "button_movedown()">&#x2193;</button>
+</div>
+</p>
+<pre id="info"> 
+Press <b>Left</b> arrow to move the block <b>Left</b>
+Press <b>Right</b> arrow to move the block <b>Right</b>
+Press <b>Down</b> arrow to move the block <b>Down</b>
+Press <b>Up</b> arrow to <b>Flip the block</b> to a different orientation
+Use either the arrow keys on keyboard or arrow buttons above
+</pre>
+
+</body>
+</html>
