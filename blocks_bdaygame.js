@@ -209,7 +209,7 @@ var myGameArea = {
 		gameStop = true;
 		window.alert("Game over!!");
 		var info = document.getElementById("info");
-		info.innerHTML = "Thanks: <br/> To Mom & Dad & Hari </br> To UT Ma'am, all my CS profs, W3Schools, P.Norvig, C.Ogden & CS50 team  & Youtube recommendation algorithm </br> To Sowmya, Aish, Sandhya, Maha, Madhu, Ruchi, Uma, Ghazala, Kalpita & all my friends for their time & support <br/> To A.Gilchrist, R.Sapolsky, N.Djokovic, Y.Kanno, C.Evans, I.Takahata, S.Watanabe , Nujabes & ARR for some memorable momments.";		
+		info.innerHTML = "Thanks: <br/> To Mom & Dad & Hari </br> To UT Ma'am, all my CS profs, W3Schools, P.Norvig, C.Ogden & CS50 team  & Youtube recommendation algorithm </br> To Sowmya, Aish, Sandhya, Maha, Madhu, Ruchi, Uma, Ghazala, Kalpita & all my friends for their time & support <br/> To A.Gilchrist, R.Sapolsky, N.Djokovic, Y.Kanno, C.Evans, N.Shihab Nye, I.Takahata, S.Watanabe , Nujabes & ARR for some enjoyable momments.";		
 	},
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height); //Clearing the canvas
